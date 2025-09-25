@@ -1,5 +1,5 @@
-entered_height = int(input('enter height'))
-entered_weight = int(input('enter weight'))
+entered_height = int(input('enter height (in): '))
+entered_weight = int(input('enter weight (lb): '))
 height = entered_height if entered_height >= 0 else print('enter proper value')
 weight = entered_weight if entered_weight >= 0 else print('enter proper value')
 BMI = (weight/(height^2))*703
